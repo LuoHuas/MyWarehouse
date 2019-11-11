@@ -13,7 +13,7 @@ import java.io.IOException;
 @RequestMapping(value = "/test")  //一级
 public class TestController {
 
-
+int a=0;
     /**
      * 相当于使用当年的servlet的传统方式获取客户端传过来的请求数据
      *
