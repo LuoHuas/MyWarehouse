@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value = "/demo")
 public class DemoController {
 
+int a=1;
     @RequestMapping(value = "test1")
     public String demo1() throws MyException {
         try {
